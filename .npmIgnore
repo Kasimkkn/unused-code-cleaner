@@ -1,0 +1,51 @@
+# Source files (only ship built files)
+src/
+tests/
+test/
+__tests__/
+examples/
+
+# Config files
+tsconfig.json
+jest.config.js
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+# Development files
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+*.stories.ts
+*.stories.js
+
+# Documentation source
+docs/
+.github/
+.vscode/
+.idea/
+
+# Build tools
+webpack.config.js
+rollup.config.js
+babel.config.js
+
+# Setup and development scripts
+setup.sh
+setup.ps1
+.gitignore
+
+# Coverage and logs
+coverage/
+*.log
+.nyc_output
+
+# Temporary files
+temp-repo/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db

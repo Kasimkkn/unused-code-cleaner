@@ -1,0 +1,43 @@
+{
+    "ignore": [
+        "src/types/**",
+        "**/*.test.ts",
+        "**/*.stories.ts",
+        "src/legacy/**",
+        "public/**"
+    ],
+    "extensions": [
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx",
+        ".vue"
+    ],
+    "dependencies": {
+        "skipDevDependencies": false,
+        "ignorePeerDependencies": true,
+        "customIgnore": [
+            "@types/*",
+            "eslint*",
+            "prettier",
+            "typescript"
+        ]
+    },
+    "files": {
+        "includeTests": false,
+        "includeStories": false,
+        "customIgnore": [
+            "src/docs/**",
+            "src/examples/**"
+        ]
+    },
+    "git": {
+        "defaultBranch": "main",
+        "commitMessage": "🧹 Cleanup: removed unused code and dependencies"
+    },
+    "analysis": {
+        "timeout": 120000,
+        "skipUnimported": false,
+        "skipDepcheck": false
+    }
+}
