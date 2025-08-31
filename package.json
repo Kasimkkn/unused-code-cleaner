@@ -1,6 +1,6 @@
 {
   "name": "unused-code-cleaner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically detect and clean unused imports, files, components, and packages from your JavaScript/TypeScript projects",
   "main": "dist/index.js",
   "bin": {
